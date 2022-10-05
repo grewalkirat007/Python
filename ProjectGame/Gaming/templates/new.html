@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Coding for Entrepreneurs is doing Try Django</title>
+</head>
+
+<body>
+
+    <h1>Hlo</h1>
+    <form action="/addGame/" method="post">
+        {% csrf_token %}
+
+        <label>Game ID: </label>
+        <div>{{form.GameID}</div>
+        
+        <label>Game Name: </label>
+        <div>{{form.GameName}</div>
+
+        <label>Type: </label>
+        <div>{{form.Type}</div>
+
+        <label>BuildYear: </label>
+        <div>{{form.BuildYear}</div>
+
+        <label>Downloads: </label>
+        <div>{{form.Downloads}</div>
+
+        <label>ActivePlayers: </label>
+        <div>{{form.ActivePlayers}</div>
+
+        <label>Size: </label>
+        <div>{{form.Size}</div>
+
+        <label>Creater: </label>
+        <div>{{form.Creater}</div>
+
+        <label>Version: </label>
+        <div>{{form.Version}</div>
+
+        <label>DevicesAvailable: </label>
+        <div>{{form.DevicesAvailable}</div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
