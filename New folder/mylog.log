@@ -1,0 +1,21 @@
+DEBUG:root:This is a debug error
+INFO:root:This is a info error
+WARNING:root:This is a warning error
+ERROR:root:This is a error error
+CRITICAL:root:This is a critical error
+DEBUG:root:This is a debug error
+INFO:root:This is a info error
+WARNING:root:This is a warning error
+ERROR:root:This is a error error
+CRITICAL:root:This is a critical error
+ERROR:root:exception happened
+Traceback (most recent call last):
+  File "D:/Kiratveer_Singh_Grewal/sem4/emerging_technologies/New folder/thelogger.py", line 20, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
+ERROR:root:Error processing the data, enter correct age
+NoneType: None
+ERROR:root:Error processing the data, enter correct age
+NoneType: None
+ERROR:root:Error processing the data, enter correct age
+NoneType: None
